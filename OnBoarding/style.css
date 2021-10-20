@@ -1,0 +1,229 @@
+/* Finance App OnBoarding CSS */
+
+/* Header Start */
+.status-bar {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 94.58%;
+}
+
+.battery {
+  position: absolute;
+  width: 18px;
+  height: 11px;
+  right: 18.67px;
+  top: 17px;
+}
+
+.wifi {
+  position: absolute;
+  width: 15.33px;
+  height: 11px;
+  right: 43.67px;
+  top: 17px;
+}
+
+.signal {
+  position: absolute;
+  width: 17px;
+  height: 11px;
+  right: 64px;
+  top: 17px;
+}
+
+.time {
+  position: absolute;
+  width: 54px;
+  height: 20px;
+  left: 15px;
+  top: 5px;
+}
+
+/* Header End */
+
+/* ------------------------------------------------------------------ */
+
+/* Main Start */
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+
+  position: absolute;
+  left: 9.33%;
+  right: 9.33%;
+  top: 8.37%;
+  bottom: 11%;
+}
+
+/* Main-title */
+.main-title {
+  left: 35%;
+  right: 35%;
+  top: 0%;
+  bottom: 96.21%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -1px;
+  margin: auto;
+}
+
+/* Content */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 375px;
+  height: 476px;
+  left: -78.5px;
+  top: 91px;
+  order: 1;
+  margin: 64px 0px;
+}
+
+/* Graph */
+.graph {
+  width: 375px;
+  height: 345px;
+  left: 0px;
+  top: 0px;
+  margin: auto;
+}
+
+/* Text Under Graph */
+/* Onboarding */
+.on-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 375px;
+  height: 100px;
+  left: 82px;
+  top: 375px;
+
+  margin: 32px 0px;
+}
+
+/* Title */
+
+.title {
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 65%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.5px;
+  margin: auto;
+}
+
+/* Moto */
+
+.moto {
+  left: 18%;
+  right: 18%;
+  top: 53.4%;
+  bottom: 0%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.5px;
+  margin: 20px 0px;
+}
+
+/* Button */
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 120px;
+  left: 0%;
+  right: 0%;
+  top: 92%;
+  bottom: 0%;
+  background: #6f6cd9;
+  border-radius: 10px;
+  order: 2;
+  margin: -64px 0px;
+}
+
+/* Label */
+label {
+  height: 18px;
+  left: 40%;
+  right: 40%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin: auto;
+}
+
+/* Main End */
+
+/* ------------------------------------------------------------------ */
+
+/********* FOOTER Start **************/
+footer {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 95%;
+  bottom: 0%;
+}
+
+/* Home Indicator */
+.indicator {
+  position: absolute;
+  width: 250px;
+  height: 5px;
+  left: 62.5px;
+  right: 0px;
+  bottom: 0px;
+  background: #acb8c2;
+  opacity: 0.5;
+  border-radius: 100px;
+}
+
+/*** Footer End ****/
+
+@media screen and (max-width: 375px) {
+  .mobile-design {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: white;
+  }
+}
