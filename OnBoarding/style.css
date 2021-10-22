@@ -204,30 +204,54 @@ footer {
   position: absolute;
   left: 0%;
   right: 0%;
-  top: 95%;
+  top: 95.81%;
   bottom: 0%;
 }
 
 /* Home Indicator */
 .indicator {
   position: absolute;
-  width: 250px;
+  width: 175px;
   height: 5px;
-  left: 62.5px;
-  right: 0px;
-  bottom: 0px;
+  left: calc(50% - 170px / 2 + 0.5px);
+  bottom: 8px;
   background: #acb8c2;
-  opacity: 0.5;
+  opacity: 0.4;
   border-radius: 100px;
 }
 
 /*** Footer End ****/
 
+
+/** Responsive **/
+
 @media screen and (max-width: 375px) {
   .mobile-design {
     position: relative;
+    margin: auto;
     width: 375px;
     height: 812px;
     background: white;
   }
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .mobile-design {
+    margin: auto;
+    width: 768px;
+    height: 812px;
+    background: white;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .mobile-design {
+    margin: auto;
+    width: 1024px;
+    height: 812px;
+    background: white;
+  }
+}
+
+
