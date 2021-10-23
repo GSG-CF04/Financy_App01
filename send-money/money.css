@@ -7,6 +7,7 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+
 /* Start Header */
 .tab-title{
 display: flex;
@@ -47,8 +48,8 @@ color: #656F77;
 /* Start Card */
 .card{
     display: flex;
-  
 }
+
 .credit-card,.credit-card-1,.credit-card-2{
     border-radius: 20px;
     margin: 40px auto 10px;
@@ -65,11 +66,14 @@ color: #656F77;
     position: absolute;
     left:365px;
     background-color: #DED2F9;
+    position: fixed;
 }
+
 .credit-card-2{
     position: absolute;
     right: 365px;
     background-color: #D3E1FF;
+  
 }
 .caption-card{
     display: flex;
@@ -225,7 +229,7 @@ figcaption{
          }
 
     .card{
-        margin-top: 30px;
+        margin-top: 20px;
         display: block;
        
         }
@@ -252,13 +256,12 @@ figcaption{
             font-size: 30px;
             padding-top: 7px;
            }
-           .balance p{
+         .balance p{
                font-size: 16px;
            }
-           .name-date{
+         .name-date{
                font-size: 15px;
            }
-     
 }
 /* End Responsive Tablet */
 
@@ -269,12 +272,12 @@ figcaption{
     }
     .arrow-left{
         top: 70px;
-   left: 110px;
+        left: 110px;
     }
     .card{
-        margin-top: 30px;
+        margin-top: 20px;
         }
-        .credit-card-1{
+    .credit-card-1{
             position: relative;
             left: auto;
            margin-left: 100px;
