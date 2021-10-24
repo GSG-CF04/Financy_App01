@@ -1,6 +1,6 @@
 # Financy App
 
-- [About Financry App](#about)
+- [About Financy App](#about)
 - [Features](#features)
 - [About Us](#about-us)
 - [Contributing](#contributing)
@@ -14,6 +14,7 @@
 </p>
 
 ## About Financy App <span id="about"></span>
+
 <p float="left">
 <img src="https://user-images.githubusercontent.com/73759748/138448839-50f9f0c5-ab2b-48a9-a6a2-29568c9197da.png" width="200"/>
 <img src="https://user-images.githubusercontent.com/73759748/138448848-0a87e16e-d026-4cdf-9a5b-6b15ad19b8be.png" width="200"/>
@@ -23,10 +24,9 @@
  
 **What?**
 
-Financy App is a free, easy-to-use Personal finance app  that sync your credit cards, bank, and investment accounts under one roof,
+Financy App is a free, easy-to-use Personal finance app that sync your credit cards, bank, and investment accounts under one roof,
 keep track of all your information about your expenses automatically.
 It primarily helps organize one's finances and keeps track of where, when and how the money goes.
-
 
 **Why?**
 
@@ -36,23 +36,15 @@ Helps to save and plan for the future
 Prepares for financial emergencies and get out of the credit holes
 Make tax duties less complicated.
 
-
-
-
-
-
-
-
 ## Features <span id="features"></span>
 
-* Easily manage your costs and incomes
-* Define your budget and trace it
-* Intuitive, simple, fast, clean
-* Checking, credit card, savings, stock investment, assets accounts
-* Reminders for recurring bills and deposits
-* Budgeting and cash flow forecasting
-* International language support
-
+- Easily manage your costs and incomes
+- Define your budget and trace it
+- Intuitive, simple, fast, clean
+- Checking, credit card, savings, stock investment, assets accounts
+- Reminders for recurring bills and deposits
+- Budgeting and cash flow forecasting
+- International language support
 
 ## About Us <span id="about-us"></span>
 
@@ -63,15 +55,13 @@ Who are we?
 - [Farah Al Zard](https://www.github.com/farahalzard)
 - [Muhanna Atalla](https://www.github.com/muhannaAtalla20)
 
-
 ## Contributing <span id="contributing"></span>
 
 Your help is always welcome! Feel free to open issues, ask questions, talk about it and discuss this tool.
 
 Of course, there are some contributing guidelines and a code of conduct, which we invite you to check out.
 
-we can always use your help squashing bugs, thinking about new features or translating Firefly III into other languages.
-
+we can always use your help squashing bugs, thinking about new features or translating Financy App into other languages.
 
 ## Support <span id="support"></span>
 
@@ -84,10 +74,10 @@ GitHub Discussions for questions and support
 GitHub Issues for bugs and issues
 
 ## License <span id="license"></span>
-This work is licensed under the GNU Affero General Public License v3.
 
+This work is licensed under the MIT License.
 
 ### App Ratio: <span id="ratio"></span>
 
 Device: Iphone X
-Width X Height: 375 * 812
+Width X Height: 375 \* 812
