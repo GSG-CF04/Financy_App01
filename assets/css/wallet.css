@@ -1,25 +1,43 @@
+<<<<<<< HEAD
 
 /* Start basic style */
+=======
+/*basic style*/
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
 * {
   font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+<<<<<<< HEAD
 /* End basic style */
 /* Start Header Style */
 header {
+=======
+/**/
+/* Start Header Style */
+.header {
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
   width: 100%;
   height: 44px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+<<<<<<< HEAD
 header .left_side,
 .right_side {
   margin: 0 15px 0 25px;
 }
 header .left_side p {
+=======
+.header .left,
+.right {
+  margin: 0 15px 0 25px;
+}
+.header .left p {
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
   font-weight: bold;
 }
 .start_nav {
@@ -28,6 +46,7 @@ header .left_side p {
   justify-content: space-around;
   align-items: center;
 }
+<<<<<<< HEAD
 .time {
   position: absolute;
   width: 54px;
@@ -38,6 +57,21 @@ header .left_side p {
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
+=======
+
+.time{
+  position: absolute;
+  width: 54px;
+  height: 20px;
+  left: 15px;
+  top: 5px;
+  top: 10px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
 }
 .start_nav p {
   font-weight: bold;
@@ -70,6 +104,10 @@ header .left_side p {
 .information h4 {
   margin: 10px 0 20px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
 .card2 {
   width: 325px;
   height: 174px;
@@ -79,6 +117,21 @@ header .left_side p {
   padding: 20px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
+<<<<<<< HEAD
+=======
+.content .balance {
+  display: flex;
+  justify-content: space-between;
+}
+.content .balance_current p {
+  color: #191d21;
+}
+.name_date {
+  display: flex;
+  justify-content: space-between;
+}
+
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
 .card3 {
   width: 325px;
   height: 174px;
@@ -88,6 +141,21 @@ header .left_side p {
   padding: 20px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
+<<<<<<< HEAD
+=======
+.content .balance {
+  display: flex;
+  justify-content: space-between;
+}
+.content .balance_current p {
+  color: #191d21;
+}
+.name_date {
+  display: flex;
+  justify-content: space-between;
+}
+
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
 button {
   width: 56px;
   height: 56px;
@@ -104,10 +172,17 @@ button i {
 /* End Content Style */
 /* Start Footer Style */
 footer {
+<<<<<<< HEAD
   height: 100px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 footer .nav_footer {
+=======
+  height: 96px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+footer .nav {
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
   display: flex;
   justify-content: space-around;
 }
@@ -117,7 +192,13 @@ footer .nav_footer {
   align-items: center;
 }
 /* End Footer Style*/
+<<<<<<< HEAD
 /* Start media For desktop */
+=======
+
+/*    For desktop    */
+
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
 @media screen and (min-width: 1024px) {
   .cards {
     display: flex;
@@ -145,6 +226,7 @@ footer .nav_footer {
     left: 1250px;
     bottom: 5px;
   }
+<<<<<<< HEAD
   footer {
     height: 96px;
   }
@@ -154,6 +236,11 @@ footer .nav_footer {
 }
 /* End media for desktop */
 /* Start media For tablet */
+=======
+}
+/*    For tablet    */
+
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .card1 {
     width: 600px;
@@ -177,4 +264,7 @@ footer .nav_footer {
     left: 625px;
   }
 }
+<<<<<<< HEAD
 /* End media for tablet*/
+=======
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4

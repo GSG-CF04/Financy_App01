@@ -19,6 +19,7 @@
 ## About Financy App <span id="about"></span>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <p float="left">
 <img src="https://user-images.githubusercontent.com/73759748/138448839-50f9f0c5-ab2b-48a9-a6a2-29568c9197da.png" width="200"/>
 <img src="https://user-images.githubusercontent.com/73759748/138448848-0a87e16e-d026-4cdf-9a5b-6b15ad19b8be.png" width="200"/>
@@ -31,6 +32,13 @@
 <img src="https://user-images.githubusercontent.com/73759748/138448868-e791c7c0-f586-49c3-8556-9919e5cee2df.png" width="225"/>
 <img src="https://user-images.githubusercontent.com/73759748/138448879-a264e2c7-4abc-45c6-aee0-d26a5c163264.png" width="225"/>
 >>>>>>> main
+=======
+<p align="center">
+<img src="https://user-images.githubusercontent.com/73759748/138448839-50f9f0c5-ab2b-48a9-a6a2-29568c9197da.png" width="220"/>
+<img src="https://user-images.githubusercontent.com/73759748/138448848-0a87e16e-d026-4cdf-9a5b-6b15ad19b8be.png" width="220"/>
+<img src="https://user-images.githubusercontent.com/73759748/138448868-e791c7c0-f586-49c3-8556-9919e5cee2df.png" width="220"/>
+<img src="https://user-images.githubusercontent.com/73759748/138448879-a264e2c7-4abc-45c6-aee0-d26a5c163264.png" width="220"/>
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
           </p>
  
 **What?**
@@ -48,7 +56,10 @@ Prepares for financial emergencies and get out of the credit holes
 Make tax duties less complicated.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
 **How?**
 
 *Planning Phase*: The App consisted of 4 pages, each member took responsibility for one page to develop.  
@@ -59,7 +70,10 @@ Make tax duties less complicated.
 - Git & Github
 - Making the pages responsive for 3 devices: Mobile, Tablet and Desktop.
 
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
 ## Features <span id="features"></span>
 
 - Easily manage your costs and incomes
@@ -70,12 +84,18 @@ Make tax duties less complicated.
 - Budgeting and cash flow forecasting
 - International language support
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
 
 ## Live Website <span id="live"></span>
 
 You are welcome to visit our demo website [**Here**](https://gsg-cf04.github.io/Financy_App01/)
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
 
 ## About Us <span id="about-us"></span>
 

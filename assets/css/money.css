@@ -25,6 +25,7 @@ font-weight: bold;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .time{
     position: absolute;
     width: 54px;
@@ -41,15 +42,22 @@ font-weight: bold;
 =======
 
 >>>>>>> main
+=======
+
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
 /* End Header */
 
 /* Start header-content */
 .header-content{
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-top: 30px;
 =======
     margin-top: 25px;
 >>>>>>> main
+=======
+    margin-top: 25px;
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
 }
 .title{
     font-size:20px ;
@@ -150,10 +158,14 @@ color: #656F77;
 /* Start Pagination */
 #pagination{
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-top: 15px;
 =======
     margin-top: 20px;
 >>>>>>> main
+=======
+    margin-top: 20px;
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
 }
 .pagination-items{
     display: flex;
@@ -180,10 +192,14 @@ color: #656F77;
 .profile{
     text-align: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-top: 30px;
 =======
     margin-top: 20px;
 >>>>>>> main
+=======
+    margin-top: 20px;
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
 }
 figure img{
     width: 123px;
@@ -199,10 +215,14 @@ figcaption{
     color: #000000;
     font-weight: bold;
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-top: 20px;
 =======
     margin-top: 15px;
 >>>>>>> main
+=======
+    margin-top: 15px;
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
 }
 .profile input{
    border-radius: 4px;
@@ -213,10 +233,14 @@ figcaption{
     background-color: #FFFFFF;
     font-size: 14px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-top: 30px;
 =======
     margin-top: 20px;
 >>>>>>> main
+=======
+    margin-top: 20px;
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
 }
 /* End  Profile Input */
 /* Start  Button */
@@ -228,10 +252,14 @@ figcaption{
     border: none;
     border-radius: 4px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding: 18px 115px;
 =======
     padding: 20px 115px ;
 >>>>>>> main
+=======
+    padding: 20px 115px ;
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
     margin:30px 0px;
     color: #FFFFFF;
     background-color: #6F6CD9;
@@ -244,10 +272,14 @@ figcaption{
     display: flex;
     justify-content: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-bottom: 20px;
 =======
     margin-top: 10px;
 >>>>>>> main
+=======
+    margin-top: 10px;
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
 }
 .line{
     height: 5px;
@@ -276,10 +308,14 @@ figcaption{
 
     .card{
 <<<<<<< HEAD
+<<<<<<< HEAD
         margin-top: 20px;
 =======
         margin-top: 10px;
 >>>>>>> main
+=======
+        margin-top: 10px;
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
         display: block;
        
         }
@@ -313,11 +349,17 @@ figcaption{
                font-size: 15px;
            }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
            .footer{
             margin:0 0 20px 0;
         }
 >>>>>>> main
+=======
+           .footer{
+            margin:0 0 20px 0;
+        }
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
 }
 /* End Responsive Tablet */
 
@@ -325,10 +367,14 @@ figcaption{
 @media screen and (min-width:1024px) {
     header{
 <<<<<<< HEAD
+<<<<<<< HEAD
         margin-top: 20px;
 =======
         margin-top: 10px;
 >>>>>>> main
+=======
+        margin-top: 10px;
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
     }
     .arrow-left{
         top: 70px;
@@ -336,10 +382,14 @@ figcaption{
     }
     .card{
 <<<<<<< HEAD
+<<<<<<< HEAD
         margin-top: 20px;
 =======
         margin-top: 10px;
 >>>>>>> main
+=======
+        margin-top: 10px;
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
         }
     .credit-card-1{
             position: relative;
@@ -352,15 +402,21 @@ figcaption{
             margin-right: 100px;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         
         
 =======
+=======
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
         .btn button{
            margin-top:10px;
         }
         .footer{
             margin:0 0 20px 0;
         }
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4
 }
 /* End Responsive Desktop */

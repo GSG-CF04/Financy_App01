@@ -63,10 +63,14 @@ header {
 }
 
 <<<<<<< HEAD:assets/css/home.css
+<<<<<<< HEAD:assets/css/home.css
 .time{
 =======
 .time {
 >>>>>>> main:home/home.css
+=======
+.time {
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4:home/home.css
   position: absolute;
   width: 54px;
   height: 20px;
@@ -79,9 +83,12 @@ header {
   font-weight: 600;
   font-size: 16px;
 <<<<<<< HEAD:assets/css/home.css
+<<<<<<< HEAD:assets/css/home.css
 
 =======
 >>>>>>> main:home/home.css
+=======
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4:home/home.css
 }
 .profile {
   display: flex;
@@ -461,6 +468,7 @@ footer {
 }
 
 <<<<<<< HEAD:assets/css/home.css
+<<<<<<< HEAD:assets/css/home.css
 a{
   text-decoration: none;
   color:black;
@@ -469,6 +477,8 @@ a{
 a:visited{
   color:black;
 =======
+=======
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4:home/home.css
 .activity a,
 .statistics a {
   text-decoration: none;
@@ -482,7 +492,10 @@ a:visited{
   font-size: 15px;
   text-align: center;
   color: #5855c0;
+<<<<<<< HEAD:assets/css/home.css
 >>>>>>> main:home/home.css
+=======
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4:home/home.css
 }
 .home {
   display: flex;
@@ -564,6 +577,7 @@ a:visited{
   .send {
     width: 210px;
     height: 90px;
+<<<<<<< HEAD:assets/css/home.css
   }
   .send-icon {
     margin-left: 59px;
@@ -571,6 +585,15 @@ a:visited{
   .send-word {
     margin-top: 62px;
   }
+=======
+  }
+  .send-icon {
+    margin-left: 59px;
+  }
+  .send-word {
+    margin-top: 62px;
+  }
+>>>>>>> 77e83243f7a0066aceab930795a0590aabc775f4:home/home.css
   .ur-activity {
     margin-left: 28%;
     margin-top: -3.7%;
