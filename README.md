@@ -19,10 +19,10 @@
 ## About Financy App <span id="about"></span>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/73759748/138448839-50f9f0c5-ab2b-48a9-a6a2-29568c9197da.png" width="225"/>
-<img src="https://user-images.githubusercontent.com/73759748/138448848-0a87e16e-d026-4cdf-9a5b-6b15ad19b8be.png" width="225"/>
-<img src="https://user-images.githubusercontent.com/73759748/138448868-e791c7c0-f586-49c3-8556-9919e5cee2df.png" width="225"/>
-<img src="https://user-images.githubusercontent.com/73759748/138448879-a264e2c7-4abc-45c6-aee0-d26a5c163264.png" width="225"/>
+<img src="https://user-images.githubusercontent.com/73759748/138448839-50f9f0c5-ab2b-48a9-a6a2-29568c9197da.png" width="220"/>
+<img src="https://user-images.githubusercontent.com/73759748/138448848-0a87e16e-d026-4cdf-9a5b-6b15ad19b8be.png" width="220"/>
+<img src="https://user-images.githubusercontent.com/73759748/138448868-e791c7c0-f586-49c3-8556-9919e5cee2df.png" width="220"/>
+<img src="https://user-images.githubusercontent.com/73759748/138448879-a264e2c7-4abc-45c6-aee0-d26a5c163264.png" width="220"/>
           </p>
  
 **What?**
