@@ -24,6 +24,7 @@ font-weight: bold;
  margin-right: 10px;
 }
 
+<<<<<<< HEAD
 .time{
     position: absolute;
     width: 54px;
@@ -37,11 +38,18 @@ font-weight: bold;
     font-weight: 600;
     font-size: 16px;
 }
+=======
+
+>>>>>>> main
 /* End Header */
 
 /* Start header-content */
 .header-content{
+<<<<<<< HEAD
     margin-top: 30px;
+=======
+    margin-top: 25px;
+>>>>>>> main
 }
 .title{
     font-size:20px ;
@@ -141,7 +149,11 @@ color: #656F77;
 /* End Card */
 /* Start Pagination */
 #pagination{
+<<<<<<< HEAD
     margin-top: 15px;
+=======
+    margin-top: 20px;
+>>>>>>> main
 }
 .pagination-items{
     display: flex;
@@ -167,7 +179,11 @@ color: #656F77;
 /* Start  Profile Input */
 .profile{
     text-align: center;
+<<<<<<< HEAD
     margin-top: 30px;
+=======
+    margin-top: 20px;
+>>>>>>> main
 }
 figure img{
     width: 123px;
@@ -182,7 +198,11 @@ figcaption{
     font-size: 40px;
     color: #000000;
     font-weight: bold;
+<<<<<<< HEAD
     margin-top: 20px;
+=======
+    margin-top: 15px;
+>>>>>>> main
 }
 .profile input{
    border-radius: 4px;
@@ -192,7 +212,11 @@ figcaption{
     color: #ACB8C2;
     background-color: #FFFFFF;
     font-size: 14px;
+<<<<<<< HEAD
     margin-top: 30px;
+=======
+    margin-top: 20px;
+>>>>>>> main
 }
 /* End  Profile Input */
 /* Start  Button */
@@ -203,7 +227,11 @@ figcaption{
 .btn button{
     border: none;
     border-radius: 4px;
+<<<<<<< HEAD
     padding: 18px 115px;
+=======
+    padding: 20px 115px ;
+>>>>>>> main
     margin:30px 0px;
     color: #FFFFFF;
     background-color: #6F6CD9;
@@ -215,7 +243,11 @@ figcaption{
 .footer{
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     margin-bottom: 20px;
+=======
+    margin-top: 10px;
+>>>>>>> main
 }
 .line{
     height: 5px;
@@ -243,7 +275,11 @@ figcaption{
          }
 
     .card{
+<<<<<<< HEAD
         margin-top: 20px;
+=======
+        margin-top: 10px;
+>>>>>>> main
         display: block;
        
         }
@@ -276,20 +312,34 @@ figcaption{
          .name-date{
                font-size: 15px;
            }
+<<<<<<< HEAD
+=======
+           .footer{
+            margin:0 0 20px 0;
+        }
+>>>>>>> main
 }
 /* End Responsive Tablet */
 
 /* Start Responsive Desktop */
 @media screen and (min-width:1024px) {
     header{
+<<<<<<< HEAD
         margin-top: 20px;
+=======
+        margin-top: 10px;
+>>>>>>> main
     }
     .arrow-left{
         top: 70px;
         left: 110px;
     }
     .card{
+<<<<<<< HEAD
         margin-top: 20px;
+=======
+        margin-top: 10px;
+>>>>>>> main
         }
     .credit-card-1{
             position: relative;
@@ -301,7 +351,16 @@ figcaption{
             right: auto;
             margin-right: 100px;
         }
+<<<<<<< HEAD
         
         
+=======
+        .btn button{
+           margin-top:10px;
+        }
+        .footer{
+            margin:0 0 20px 0;
+        }
+>>>>>>> main
 }
 /* End Responsive Desktop */

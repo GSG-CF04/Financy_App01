@@ -1,34 +1,32 @@
 /* Finance App OnBoarding CSS */
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+  font-family: 'Montserrat', sans-serif;
+}
 /* Header Start */
 .status-bar {
   position: absolute;
   left: 0%;
   right: 0%;
-  top: 0%;
-  bottom: 95%;
 }
-
 .battery {
   position: absolute;
   width: 20px;
   right: 18.67px;
-  top: 17px;
+  top: 10px;
 }
-
 .wifi {
   position: absolute;
   width: 20px;
   right: 43.67px;
-  top: 17px;
+  top: 10px;
 }
-
 .signal {
   position: absolute;
   width: 25px;
   height: 11px;
   right: 64px;
-  top: 17px;
+  top: 10px;
 }
 
 .time {
@@ -38,11 +36,9 @@
   left: 15px;
   top: 5px;
   top: 10px;
-
-  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 /* Header End */
@@ -58,7 +54,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 30px;
-
   position: absolute;
   left: 9.33%;
   right: 9.33%;
@@ -70,29 +65,15 @@
 .main-title {
   left: 35%;
   right: 35%;
-  top: 0%;
   bottom: 96.21%;
-  font-family: Montserrat;
   font-style: normal;
-  font-weight: 600;
   font-size: 26px;
-  line-height: 26px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: -1px;
   margin: auto;
+  color: #191D21;
 }
 
 /* Content */
 .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  width: 375px;
-  height: 476px;
   left: -78.5px;
   top: 91px;
   order: 1;
@@ -102,7 +83,6 @@
 /* Graph */
 .graph {
   width: 375px;
-  height: 345px;
   left: 0px;
   top: 0px;
   margin: auto;
@@ -115,84 +95,38 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0px;
-  width: 375px;
   height: 100px;
   left: 82px;
-  top: 375px;
-
   margin: 32px 0px;
 }
-
 /* Title */
 
 .title {
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 65%;
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 26px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: -0.5px;
+  color: #191D21;
   margin: auto;
 }
 
 /* Moto */
 
 .moto {
-  left: 18%;
-  right: 18%;
-  top: 53.4%;
-  bottom: 0%;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
   text-align: center;
-  letter-spacing: -0.5px;
   margin: 20px 0px;
+  color: #191D21;
 }
 
 /* Button */
 button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 15px 120px;
-  left: 0%;
-  right: 0%;
-  top: 92%;
-  bottom: 0%;
   background: #6f6cd9;
   border-radius: 10px;
   order: 2;
   margin: -64px 0px;
-}
-
-/* Label */
-label {
-  height: 18px;
-  left: 40%;
-  right: 40%;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 18px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: white;
-  margin: auto;
 }
 
 /* Main End */
@@ -202,22 +136,29 @@ label {
 /********* FOOTER Start **************/
 footer {
   position: absolute;
-  left: 0%;
+  left: 25%;
   right: 0%;
-  top: 95.81%;
   bottom: 0%;
 }
 
 /* Home Indicator */
 .indicator {
   position: absolute;
-  width: 175px;
-  height: 5px;
-  left: calc(50% - 170px / 2 + 0.5px);
-  bottom: 8px;
+  width: 175px; 
+  bottom: 25px;
   background: #acb8c2;
   opacity: 0.4;
   border-radius: 100px;
+}
+button {
+  border: none;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 3px 2px;
 }
 
 a{
@@ -229,24 +170,23 @@ a{
 
 
 /** Responsive **/
-
-@media screen and (max-width: 375px) {
-  .mobile-design {
-    position: relative;
-    margin: auto;
-    width: 375px;
-    height: 812px;
-    background: white;
-  }
-}
-
-
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .mobile-design {
     margin: auto;
     width: 768px;
     height: 812px;
-    background: white;
+  }
+  .main-title {
+    font-size: 50px;
+  }
+  .title{
+    font-size: 40px;
+  }
+  .moto {
+    font-size: 20px;
+  }
+  footer{
+    left: 40%;
   }
 }
 
@@ -255,7 +195,13 @@ a{
     margin: auto;
     width: 1024px;
     height: 812px;
-    background: white;
+  }
+  footer{
+   position: none;
+   left: 43%;
+  }
+  .indicator {
+    top:130px;
   }
 }
 
