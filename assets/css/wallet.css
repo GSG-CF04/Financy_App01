@@ -1,24 +1,25 @@
-/*basic style*/
+
+/* Start basic style */
 * {
   font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/**/
+/* End basic style */
 /* Start Header Style */
-.header {
+header {
   width: 100%;
   height: 44px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.header .left,
-.right {
+header .left_side,
+.right_side {
   margin: 0 15px 0 25px;
 }
-.header .left p {
+header .left_side p {
   font-weight: bold;
 }
 .start_nav {
@@ -27,19 +28,16 @@
   justify-content: space-around;
   align-items: center;
 }
-
-.time{
+.time {
   position: absolute;
   width: 54px;
   height: 20px;
-  left: 15px;
+  left: 35px;
   top: 5px;
   top: 10px;
-
-  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
 }
 .start_nav p {
   font-weight: bold;
@@ -72,7 +70,6 @@
 .information h4 {
   margin: 10px 0 20px;
 }
-
 .card2 {
   width: 325px;
   height: 174px;
@@ -82,18 +79,6 @@
   padding: 20px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-.content .balance {
-  display: flex;
-  justify-content: space-between;
-}
-.content .balance_current p {
-  color: #191d21;
-}
-.name_date {
-  display: flex;
-  justify-content: space-between;
-}
-
 .card3 {
   width: 325px;
   height: 174px;
@@ -103,18 +88,6 @@
   padding: 20px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-.content .balance {
-  display: flex;
-  justify-content: space-between;
-}
-.content .balance_current p {
-  color: #191d21;
-}
-.name_date {
-  display: flex;
-  justify-content: space-between;
-}
-
 button {
   width: 56px;
   height: 56px;
@@ -131,10 +104,10 @@ button i {
 /* End Content Style */
 /* Start Footer Style */
 footer {
-  height: 96px;
+  height: 100px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-footer .nav {
+footer .nav_footer {
   display: flex;
   justify-content: space-around;
 }
@@ -144,9 +117,7 @@ footer .nav {
   align-items: center;
 }
 /* End Footer Style*/
-
-/*    For desktop    */
-
+/* Start media For desktop */
 @media screen and (min-width: 1024px) {
   .cards {
     display: flex;
@@ -174,9 +145,15 @@ footer .nav {
     left: 1250px;
     bottom: 5px;
   }
+  footer {
+    height: 96px;
+  }
+  .home_bar img {
+    height: 31px;
+  }
 }
-/*    For tablet    */
-
+/* End media for desktop */
+/* Start media For tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .card1 {
     width: 600px;
@@ -200,3 +177,4 @@ footer .nav {
     left: 625px;
   }
 }
+/* End media for tablet*/
