@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Start Header */
+.tab-title{
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+}
+.tab-clock{
+margin-left: 30px;
+font-size: 16px;
+font-weight: bold;
+}
+.tab-icon i{
+ font-size: 16px;
+ margin-right: 10px;
+}
+
+
+/* End Header */
+
+/* Start header-content */
+.header-content{
+    margin-top: 25px;
+}
+.title{
+    font-size:20px ;
+    color: #000000;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.arrow-left{
+position: absolute;
+left: 30px;
+top: 64px;
+color: #656F77;
+
+}
+/* Start header-content */
+
+/* Start Card */
+.card{
+    display: flex;
+}
+
+.credit-card,.credit-card-1,.credit-card-2{
+    border-radius: 20px;
+    margin: 40px auto 10px;
+    height: 174px;
+    width: 325px;
+    padding:15px 15px;
+    box-shadow: 0px 4px 4px 0px  #c9c8c8  ;
+}
+.credit-card{
+    background-color:#F5D4C1;
+     position: relative; 
+}
+.credit-card-1{
+    position: absolute;
+    left:365px;
+    background-color: #DED2F9;
+    position: fixed;
+}
+
+.credit-card-2{
+    position: absolute;
+    right: 365px;
+    background-color: #D3E1FF;
+  
+}
+.caption-card{
+    display: flex;
+    justify-content: space-between;
+    color: #191D21;  
+}
+.balance h2{
+ font-size: 20px;
+ padding-top: 10px;
+}
+.balance p{
+    font-size: 12px;
+}
+.logo{
+    display: flex;
+    padding-top: 5px;
+    height: 24px;
+}
+.red-logo,.orange-logo{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.red-logo{
+    background-color: red;
+    opacity: 0.8;
+}
+.orange-logo{
+   background-color: orange;
+   position: relative;
+   right: 9px;
+   opacity: 0.6;
+}
+.start-number{
+    margin: 20px 0;
+}
+.start-number  p{
+  font-size: 24px;
+  color: #191D21;
+}
+.name-date{
+    display: flex;
+    justify-content: space-between;
+    color: #191D21;
+    font-size: 12px;
+    padding-right: 9px;
+}
+.date{
+    font-size: 13px;
+}
+/* End Card */
+/* Start Pagination */
+#pagination{
+    margin-top: 20px;
+}
+.pagination-items{
+    display: flex;
+    justify-content: center;
+   
+}
+.unorderd-1,.unorderd-3{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #CDD9E3;
+}
+.unorderd-item{
+    margin-left: 20px;
+}
+.unorderd-2{
+    width: 20px;
+    height: 8px;
+    border-radius: 20px;
+    background-color: #393939;
+}
+/* End  Pagination*/
+/* Start  Profile Input */
+.profile{
+    text-align: center;
+    margin-top: 20px;
+}
+figure img{
+    width: 123px;
+    height: 123px;
+}
+figcaption{
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+}
+.profile article p{
+    font-size: 40px;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.profile input{
+   border-radius: 4px;
+    border: 1px solid #ACB8C2;
+    padding: 18px 69px;
+    text-align: center;
+    color: #ACB8C2;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    margin-top: 20px;
+}
+/* End  Profile Input */
+/* Start  Button */
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    border: none;
+    border-radius: 4px;
+    padding: 20px 115px ;
+    margin:30px 0px;
+    color: #FFFFFF;
+    background-color: #6F6CD9;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* End Button */
+/* Start  Footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.line{
+    height: 5px;
+    width: 134px;
+    background-color: #ACB8C2;
+    border-radius: 100px;
+}
+/* End Footer */
+
+/* Start Responsive Tablet */
+@media screen and (min-width:768px)and (max-width:1023px){
+    .tab-clock{
+       font-size: 20px;
+    }
+    .tab-icon i{
+        font-size: 20px;
+    }
+    .title{
+        font-size:30px ;
+    }
+    .arrow-left{
+        top: 75px;
+        left: 140px;
+        font-size: 20px;
+         }
+
+    .card{
+        margin-top: 10px;
+        display: block;
+       
+        }
+        .credit-card{
+            height: 200px;
+            width: 500px; 
+          margin:20px auto 10px;
+        }
+        .credit-card-1{
+           position: relative;
+           left: auto;
+           height: 200px;
+           width: 500px; 
+           margin:20px auto 10px;
+        }
+        .credit-card-2{
+            position: relative;
+            right: auto;
+            height: 200px;
+            width: 500px; 
+            margin:20px auto 10px;
+        }
+        .balance h2{
+            font-size: 30px;
+            padding-top: 7px;
+           }
+         .balance p{
+               font-size: 16px;
+           }
+         .name-date{
+               font-size: 15px;
+           }
+           .footer{
+            margin:0 0 20px 0;
+        }
+}
+/* End Responsive Tablet */
+
+/* Start Responsive Desktop */
+@media screen and (min-width:1024px) {
+    header{
+        margin-top: 10px;
+    }
+    .arrow-left{
+        top: 70px;
+        left: 110px;
+    }
+    .card{
+        margin-top: 10px;
+        }
+    .credit-card-1{
+            position: relative;
+            left: auto;
+           margin-left: 100px;
+        }
+        .credit-card-2{
+            position: relative;
+            right: auto;
+            margin-right: 100px;
+        }
+        .btn button{
+           margin-top:10px;
+        }
+        .footer{
+            margin:0 0 20px 0;
+        }
+}
+/* End Responsive Desktop */

@@ -1,0 +1,203 @@
+/* Finance App OnBoarding CSS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+/* Header Start */
+.status-bar {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+}
+.battery {
+  position: absolute;
+  width: 20px;
+  right: 18.67px;
+  top: 10px;
+}
+.wifi {
+  position: absolute;
+  width: 20px;
+  right: 43.67px;
+  top: 10px;
+}
+.signal {
+  position: absolute;
+  width: 25px;
+  height: 11px;
+  right: 64px;
+  top: 10px;
+}
+
+.time {
+  position: absolute;
+  width: 54px;
+  height: 20px;
+  left: 15px;
+  top: 5px;
+  top: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* Header End */
+
+/* ------------------------------------------------------------------ */
+
+/* Main Start */
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  position: absolute;
+  left: 9.33%;
+  right: 9.33%;
+  top: 8.37%;
+  bottom: 11%;
+}
+
+/* Main-title */
+.main-title {
+  left: 35%;
+  right: 35%;
+  bottom: 96.21%;
+  font-style: normal;
+  font-size: 26px;
+  margin: auto;
+  color: #191D21;
+}
+
+/* Content */
+.content {
+  left: -78.5px;
+  top: 91px;
+  order: 1;
+  margin: 64px 0px;
+}
+
+/* Graph */
+.graph {
+  width: 375px;
+  left: 0px;
+  top: 0px;
+  margin: auto;
+}
+
+/* Text Under Graph */
+/* Onboarding */
+.on-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  left: 82px;
+  margin: 32px 0px;
+}
+/* Title */
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  color: #191D21;
+  margin: auto;
+}
+
+/* Moto */
+
+.moto {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  margin: 20px 0px;
+  color: #191D21;
+}
+
+/* Button */
+button {
+  padding: 15px 120px;
+  background: #6f6cd9;
+  border-radius: 10px;
+  order: 2;
+  margin: -64px 0px;
+}
+
+/* Main End */
+
+/* ------------------------------------------------------------------ */
+
+/********* FOOTER Start **************/
+footer {
+  position: absolute;
+  left: 25%;
+  right: 0%;
+  bottom: 0%;
+}
+
+/* Home Indicator */
+.indicator {
+  position: absolute;
+  width: 175px; 
+  bottom: 25px;
+  background: #acb8c2;
+  opacity: 0.4;
+  border-radius: 100px;
+}
+button {
+  border: none;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 3px 2px;
+}
+
+/*** Footer End ****/
+
+
+/** Responsive **/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .mobile-design {
+    margin: auto;
+    width: 768px;
+    height: 812px;
+  }
+  .main-title {
+    font-size: 50px;
+  }
+  .title{
+    font-size: 40px;
+  }
+  .moto {
+    font-size: 20px;
+  }
+  footer{
+    left: 40%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .mobile-design {
+    margin: auto;
+    width: 1024px;
+    height: 812px;
+  }
+  footer{
+   position: none;
+   left: 43%;
+  }
+  .indicator {
+    top:130px;
+  }
+}
+
+
